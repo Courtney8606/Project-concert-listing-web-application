@@ -1,0 +1,9 @@
+.gig-band {
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+.gig-description {
+    color: rgb(255, 0, 64);
+    font-size: 20px;
+}
