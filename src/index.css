@@ -9,8 +9,6 @@
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
   min-width: 320px;
   min-height: 100vh;
 }
@@ -18,4 +16,11 @@ body {
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+}
+
+.listings {
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
+  row-gap: 20px;
 }

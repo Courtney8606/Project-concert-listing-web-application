@@ -1,0 +1,28 @@
+/* Banner */
+
+.banner {
+  width: 100%;
+  display: block;
+  text-align: center;
+  color: white;
+  position: relative;
+  padding-bottom: 40px;
+}
+
+.banner > .banner-image {
+  width: 100%;
+  display: block;
+  height: auto;
+  max-height: 500px;
+  object-fit: cover;
+  position: relative;
+  min-height: 250px;
+}
+
+.header-text {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3.5vw;
+}
