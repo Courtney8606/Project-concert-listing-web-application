@@ -1,58 +1,23 @@
-# React Application Template
+# Concert Web App
 
-This is a simple template for a React application.
+A simple concert listing web application - developing on skills in React (including 'liking' and 'favouriting' concerts). 
 
-This template uses:
+### Installation
 
-- [Vite](https://vitejs.dev/) for bundling and running the dev server.
-- [Vitest](https://vitest.dev/) for testing, along with
-  [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/)
-- [ESLint](https://eslint.org/) for linting
+These instructions are for macOS, and it is assumed that that the following are already installed:
+* Nvm
+* Node.js
 
-## Installation
+**Install any dependencies**
+* npm install vite
 
-To create a fresh copy of this project, you can use the tool `degit`:
+**Starting the server**
+* npm run dev
 
-```zsh
-npx degit makersacademy/react-template my-project --mode=git
+You can now navigate to the web app via http://localhost:5173/
 
-cd my-project
+**Running tests**
+* npm run test
 
-npm install
-```
+Please note the first call to the API can take a little while if it’s been unused for awhile.
 
-If for some reason `degit` doesn't work for you, you can instead follow these
-instructions:
-
-1. Clone this repo into a folder on your machine. eg.
-   `git clone git@github.com:makersacademy/react-template.git my-project-name`
-2. `cd` into that folder `cd my-project-name`
-3. Delete the git history: `rm -rf .git`
-
-The following can all be found under the "scripts" section in your
-`package.json`. You can add more scripts here if you like, and run them with
-`npm run my-script`.
-
-### Running in Development Mode
-
-```zsh
-npm run dev
-```
-
-### Running Tests
-
-```zsh
-npm run test
-```
-
-### Linting
-
-```zsh
-npm run lint
-```
-
-### Building for Production
-
-```zsh
-npm run build
-```

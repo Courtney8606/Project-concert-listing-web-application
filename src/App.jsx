@@ -1,6 +1,6 @@
 import Gig from "./components/Gig";
 import Banner from "./components/Banner";
-import React, { useState, useEffect, CSSProperties } from "react";
+import React, { useState, useEffect} from "react";
 import Loading from "./components/Loading";
 import FavouriteButton from "./components/Favourite";
 import "./App.css";
@@ -60,6 +60,7 @@ function App() {
 
 export default App;
 
+// Previous Hardcoded data
 // function App() {
 //     const [count1, setCount1] = useState(0);
 //     const [isFavourited1, setIsFavourited1] = useState(false);

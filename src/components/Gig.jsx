@@ -1,32 +1,17 @@
 import "../Gig.css";
 import React, { useState } from "react";
-import FavouriteButton from "./Favourite";
 
 const Gig = (props) => {
   const [count, setCount] = useState(0);
-  // const [heartColor, setHeartColor] = useState("grey");
-  //   const [favourited, setFavourited] = useState(false);
-
-  //   const toggleFavourite = () => {
-  //     setFavourited(!favourited);
-  //   };
 
   const handleClick = () => {
-    setCount(count + 1);
+    setCount(count % 2 === 0 ? count + 1 : count - 1);
   };
 
   const dateFormat = (timedate) => {
     const newdate = new Date(timedate);
     return newdate.toUTCString();
   };
-
-  // const toggleFavourite = () => {
-  //   if (heartColor === "grey") {
-  //     setHeartColor("#ff6666");
-  //   } else {
-  //     setHeartColor("grey");
-  //   }
-  // };
 
   return (
     <div id="gig">
